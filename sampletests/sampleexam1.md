@@ -1,6 +1,6 @@
 # Sample Exam Questions I 
 
-https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg
+<img src="https://raw.githubusercontent.com/moj-analytical-services/AWS-study-group-quizzes/main/assets/amazonwebservices-original.svg?token=GHSAT0AAAAAABZWQ3TWDM33S2K4HVZVMX5QZCIMMTQ" width="400" height="300" /> 
 
 Source: AWS (taken from [here](https://d1.awsstatic.com/training-and-certification/docs/AWS_Certified_Solutions_Architect_Associate_Sample_Questions.pdf) )
 
