@@ -1,6 +1,6 @@
 # AWS-study-group-quizzes
 
-<img src="https://raw.githubusercontent.com/moj-analytical-services/AWS-study-group-quizzes/main/assets/amazonwebservices-original.svg?token=GHSAT0AAAAAABZWQ3TWDM33S2K4HVZVMX5QZCIMMTQ" width="400" height="300" />  <img src="https://raw.githubusercontent.com/moj-analytical-services/AWS-study-group-quizzes/main/assets/quiz.jpeg?token=GHSAT0AAAAAABZWQ3TX4RJ25ENGUQO2CODMZCIMRRQ" width="500" height="300" /> 
+<img src="https://github.com/moj-analytical-services/AWS-study-group-quizzes/blob/main/assets/Amazon-Web-Services-AWS-Logo-700x394.png?raw=true" width="500" height="300" />  <img src="https://github.com/moj-analytical-services/AWS-study-group-quizzes/blob/main/assets/quiz.jpeg?raw=true" width="500" height="300" /> 
 
 
 ---
