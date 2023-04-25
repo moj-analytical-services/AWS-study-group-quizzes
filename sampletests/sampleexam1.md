@@ -6,7 +6,8 @@ Source: AWS (taken from [here](https://d1.awsstatic.com/training-and-certificati
 
 --- 
 
-AM1 A company is storing an access key (access key ID and secret access key) in a text file on a custom AMI. The company uses the access key to access DynamoDB tables from instances created from the AMI. The security team has mandated a more secure solution. Which solution will meet the security team’s mandate?
+## AM1 
+A company is storing an access key (access key ID and secret access key) in a text file on a custom AMI. The company uses the access key to access DynamoDB tables from instances created from the AMI. The security team has mandated a more secure solution. Which solution will meet the security team’s mandate?
 
     [( )] A. Put the access key in an S3 bucket, and retrieve the access key on boot from the instance.
     [( )] B. Pass the access key to the instances through instance user data.
@@ -28,7 +29,8 @@ Option D is correct: Creating an IAM role with permissions to access the table a
 
 ***********************************************************************
 
-AM2 A company is developing a highly available web application using stateless web servers. Which services are suitable for storing session state data? (Select TWO.)
+## AM2 
+A company is developing a highly available web application using stateless web servers. Which services are suitable for storing session state data? (Select TWO.)
 
     [( )] A. CloudWatch
     [(X)] B. DynamoDB
@@ -53,7 +55,8 @@ Option E is incorrect: Storage Gateway is a hybrid storage service that enables 
 
 ***********************************************************************
 
-AM3 Company salespeople upload their sales figures daily. A Solutions Architect needs a durable storage solution for these documents that also protects against users accidentally deleting important documents.
+## AM3 
+Company salespeople upload their sales figures daily. A Solutions Architect needs a durable storage solution for these documents that also protects against users accidentally deleting important documents.
 
 Which action will protect against unintended user actions?
 
@@ -77,7 +80,8 @@ Option D is incorrect: Storing data on EC2 instance storage is ephemeral and sho
 
 ***********************************************************************
 
-AM4 An application requires a highly available relational database with an initial storage capacity of 8 TB. The database will grow by 8 GB every day. To support expected traffic, at least eight read replicas will be required to handle database reads. Which option will meet these requirements?
+## AM4 
+An application requires a highly available relational database with an initial storage capacity of 8 TB. The database will grow by 8 GB every day. To support expected traffic, at least eight read replicas will be required to handle database reads. Which option will meet these requirements?
 
     [( )] A. DynamoDB
     [( )] B. Amazon S3
@@ -100,7 +104,8 @@ Option D is incorrect: Amazon Redshift does not support read replicas and will n
 ***********************************************************************
 
 
-AM5 A Solutions Architect is designing a critical business application with a relational database that runs on an EC2 instance. It requires a single EBS volume that can support up to 16,000 IOPS. Which Amazon EBS volume type can meet the performance requirements of this application?
+## AM5
+A Solutions Architect is designing a critical business application with a relational database that runs on an EC2 instance. It requires a single EBS volume that can support up to 16,000 IOPS. Which Amazon EBS volume type can meet the performance requirements of this application?
 
     [(X)] A. EBS Provisioned IOPS SSD
     [( )] B. EBS Throughput Optimized HDD
@@ -122,7 +127,8 @@ Option D is incorrect: EBS Cold HDD is a lower cost, high throughput volume that
 
 ***********************************************************************
 
-AM6 A web application allows customers to upload orders to an S3 bucket. The resulting Amazon S3 events trigger a Lambda function that inserts a message to an SQS queue. A single EC2 instance reads messages from the queue, processes them, and stores them in an DynamoDB table partitioned by unique order ID. Next month traffic is expected to increase by a factor of 10 and a Solutions Architect is reviewing the architecture for possible scaling problems. Which component is MOST likely to need re-architecting to be able to scale to accommodate the new traffic?
+## AM6
+A web application allows customers to upload orders to an S3 bucket. The resulting Amazon S3 events trigger a Lambda function that inserts a message to an SQS queue. A single EC2 instance reads messages from the queue, processes them, and stores them in an DynamoDB table partitioned by unique order ID. Next month traffic is expected to increase by a factor of 10 and a Solutions Architect is reviewing the architecture for possible scaling problems. Which component is MOST likely to need re-architecting to be able to scale to accommodate the new traffic?
 
     [( )] A. Lambda function
     [( )] B. SQS queue
@@ -145,7 +151,8 @@ Option D is incorrect: DynamoDB is a highly scalable NoSQL database service that
 ***********************************************************************
 
 
-AM7 An application saves the logs to an S3 bucket. A user wants to keep the logs for one month for troubleshooting purposes, 
+## AM7
+An application saves the logs to an S3 bucket. A user wants to keep the logs for one month for troubleshooting purposes, 
 and then purge the logs.What feature will enable this?
 
 [( )] Adding a bucket policy on the S3 bucket.
@@ -162,7 +169,8 @@ Lifecycle configuration allows lifecycle management of objects in a bucket. The 
 ***********************************************************************
 
 
-AM8 An application running on EC2 instances processes sensitive information stored on Amazon S3. The information is accessed over the Internet. The security team is concerned that the Internet connectivity to Amazon S3 is a security risk.
+## AM8
+An application running on EC2 instances processes sensitive information stored on Amazon S3. The information is accessed over the Internet. The security team is concerned that the Internet connectivity to Amazon S3 is a security risk.
 Which solution will resolve the security concern?
 
 [( )] Access the data through an Internet Gateway.
@@ -179,7 +187,8 @@ There is no way to connect to Amazon S3 via VPN.
 
 ***********************************************************************
 
-AM9 An organization is building an Amazon Redshift cluster in their shared services VPC. The cluster will host sensitive data.
+## AM9
+An organization is building an Amazon Redshift cluster in their shared services VPC. The cluster will host sensitive data.
 How can the organization control which networks can access the cluster?
 
 [( )] Run the cluster in a different VPC and connect through VPC peering.
@@ -193,7 +202,8 @@ Answer: C – A security group can grant access to traffic from the allowed netw
 ***********************************************************************
 
 
-AM10 A Solutions Architect is designing an online shopping application running in a VPC on EC2 instances behind an ELB Application Load Balancer. The instances run in an Auto Scaling group across multiple Availability Zones. The application tier must read and write data to a customer managed database cluster. There should be no access to the database from the Internet, but the cluster must be able to obtain software patches from the Internet.
+## AM10
+A Solutions Architect is designing an online shopping application running in a VPC on EC2 instances behind an ELB Application Load Balancer. The instances run in an Auto Scaling group across multiple Availability Zones. The application tier must read and write data to a customer managed database cluster. There should be no access to the database from the Internet, but the cluster must be able to obtain software patches from the Internet.
 Which VPC design meets these requirements?
 
 [( )] Public subnets for both the application tier and the database cluster
