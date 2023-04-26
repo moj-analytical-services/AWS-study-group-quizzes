@@ -12,7 +12,7 @@ to develop revision quizzes for the AWS Solutions Architect Certification (Assoc
 
 Quizzes available: 
 
-[Sample Exam Questions I](https://liascript.github.io/course/?https://raw.githubusercontent.com/moj-analytical-services/AWS-study-group-quizzes/main/sampletests/sampleexam1.md?token=GHSAT0AAAAAAB5AC646XMXT4BBTZZD35TTYZCIO6RQ#1)
+[Sample Exam Questions I](https://liascript.github.io/course/?https://raw.githubusercontent.com/moj-analytical-services/AWS-study-group-quizzes/main/sampletests/sampleexam1.md#1)
 
 
 
