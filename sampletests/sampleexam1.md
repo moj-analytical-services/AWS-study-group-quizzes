@@ -1,5 +1,4 @@
 # Sample Exam Questions I 
-<img src="https://github.com/moj-analytical-services/AWS-study-group-quizzes/blob/main/assets/Amazon-Web-Services-AWS-Logo-700x394.png?raw=true" width="500" height="300" />
 
 Source: AWS (taken from [here](https://d1.awsstatic.com/training-and-certification/docs/AWS_Certified_Solutions_Architect_Associate_Sample_Questions.pdf) )
 
