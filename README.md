@@ -15,6 +15,9 @@ Quizzes available:
 [Sample Exam Questions I](https://liascript.github.io/course/?https://raw.githubusercontent.com/moj-analytical-services/AWS-study-group-quizzes/main/sampletests/sampleexam1.md#1)
 
 
+[Whizlabs Exam Questions II](https://liascript.github.io/course/?https://raw.githubusercontent.com/moj-analytical-services/AWS-study-group-quizzes/main/sampletests/whizlabs-questions.md#1)
+
+
 
 
 
